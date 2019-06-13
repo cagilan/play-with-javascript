@@ -70,3 +70,7 @@ Summary:
 Function declaration - when you want to create a function on the global scope and make it available throughout your code
 
 Function expression - to limit where the function is available, keep your global scope light, and maintain clean syntax.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
