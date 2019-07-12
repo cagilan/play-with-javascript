@@ -1,7 +1,7 @@
 /*
 https://medium.com/free-code-camp/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0
 
-We write function in 2 ways. 
+We write function in 2 ways.
 
 function fn_name() {}
 
@@ -30,13 +30,13 @@ const var_name = () => {} - This throws error
 
 Hoisting:
 ---------
-Hoisting refers to the availability of functions and variables at the top of your code, after they are created. 
-Objects are initialized at compile time and available anywhere in your file. 
+Hoisting refers to the availability of functions and variables at the top of your code, after they are created.
+Objects are initialized at compile time and available anywhere in your file.
 
 When and where we needed functional declaraton and functional expression:
 --------------------------------------------------------------------------
 
-Function expressions are invoked to avoid polluting global scope. 
+Function expressions are invoked to avoid polluting global scope.
 
 By using function declaration program being aware of many different functions. But in Functon expression is ananmyous, they are used and forgotten immediately.
 
@@ -54,7 +54,7 @@ Callbacks: A function passed to another function
 function map_fn() {}
 array.map(map_fn)
 
-Here the problem is map_fn function declaraton is available throughout the application when there is no need for that. But that callback is funciton expression, it will not be available outside of the function that uses it. 
+Here the problem is map_fn function declaraton is available throughout the application when there is no need for that. But that callback is funciton expression, it will not be available outside of the function that uses it.
 
 array.map(item => {//do the stuff here})
 
