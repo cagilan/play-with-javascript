@@ -5,6 +5,7 @@ Javascript is synchronous, blocking, single threaded laungage which means one op
 But its possible to manipulate JS to behave in asynchronous way.
 
 Asynchronous callback:
+----------------------
 
 The simplest solution for synchronous is use asynchronous callbacks (seTimeout())
 
@@ -23,6 +24,7 @@ Note: Asynchronous functions runs in parallel so you cant predict which order th
 .next() allows us to control the order of operations with async.
 
 Promise:
+---------
 
 Instead of bundling all dependencies into one block code we are able to separate. 
 
