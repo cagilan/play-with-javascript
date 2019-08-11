@@ -35,3 +35,11 @@ greeting.lang = 'English';
 
 // Prints 'English'
 console.log(greeting.lang);
+
+High order function:
+_____________________
+
+High order function is one which either takes a function as an argument or returns a function.
+
+If a functin doesnot, it is a first order function.
+

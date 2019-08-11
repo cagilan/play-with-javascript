@@ -64,3 +64,17 @@ if (1) {
     console.log('3b', myName3); // undefined
     const myName3 = 'Sunil';
 }
+
+In Details:
+_____________
+
+Hoisting suggests that variables and function declarations are physically moved to top of your code. 
+
+Technically, the variable and function declaration are put into memory during the compilation phase but stay exactly
+where you typed them in your code. 
+
+The primary importance is allow you to use function before you declare them in your code.
+
+Key things:
+____________
+
