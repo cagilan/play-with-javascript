@@ -1,2 +1,2 @@
 # play-with-javascript
-This repository to brush my javascript knowledge
+This repository to brush my functional and object oriented knowledge
