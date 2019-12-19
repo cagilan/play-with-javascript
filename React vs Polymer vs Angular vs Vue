@@ -1,0 +1,25 @@
+1. React:
+___________________
+
+React was developed at Facebook and first released in 2013. It is widely used at Facebook, Airbnb, PayPal, Walmart. 
+Its a library rather than a framework. Its not complete solution to build webapp. We can choose our own solutions for functions like 
+Routing, State Management. Many users relies on libraries like Redux.
+
+Everything in React is Javascript with JSX to express HTML. 
+
+Advantage of using React is lets developers use the React codebase they use on the web to quickly generate/build 
+native applications for IOS/Android. That way they have shared codebase for UX/UI between the web and mobile apps. 
+
+With React Native, your component can generate native-rendered mobile apps for both Android and IOS.
+
+There is a fairly steep learning curve for React because of JSX and other packages like Redux. 
+
+React is fairly easy to debug, as it uses one way binding that make data flow easier to understand. 
+
+React performace is good, React Fiber provides perceived performance. 
+
+2. Polymer
+_______________
+
+
+
