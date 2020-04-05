@@ -27,4 +27,7 @@ NVM: POSIX-complaint bash script to manage multiple node versions. (POSIX - Port
 STACKBLITZ online tool to develop and learn angular
 ------------
 
-   
+Angular 9:
+____________
+
+Ivy compiler and runtime by default. Ivy brings smaller bundle sizes, faster and better testing debugging, improved type checking, build times etc.
