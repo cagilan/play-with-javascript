@@ -96,7 +96,7 @@ The decorator must be positioned before to class definition.
 
 ** Several options to use component selector **
 
-1. Class Name:
+**1. Class Name:**
 
 ```
 @Component({     
@@ -105,7 +105,7 @@ The decorator must be positioned before to class definition.
 ```
 <div class="app-root"></div>
 
-2. Attribute Name:
+**2. Attribute Name:**
 
 ```
  @Component({ selector: '[app-root]' })
@@ -120,7 +120,7 @@ The decorator must be positioned before to class definition.
 ```
 <div app-root></div>
 
-3. Attribute Name & Value:
+**3. Attribute Name & Value:**
 
 ```
  @Component({     
@@ -212,6 +212,75 @@ We add all the other modules that are used by this module to **imports array**.
 We include the services in the **providers’ array.**
 
 The Component that angular should load, when the **app.module** is loaded is assigned to the **bootstrap property.**
+
+
+# Data Binding in Angular 
+
+* It kees the Component and View in sync wit each other
+* Interpolation, Property Binding, Event Binding and Two way binding(ngModel)
+
+## From view to component 
+
+**1. Interpolation:**
+
+```
+export class AppComponent {
+  firstName= 'XXX';
+  lastName=”XXX";
+ ```
+ Welcome,  {{firstName}} {{lastName}} . - The content inside the double braces is called *Template Expression*
+
+**2. Property Binding: (class, href, src, textContent)**
+
+```
+export class AppComponent {
+  title="Angular Property Binding Example" // Binding to innerText
+  isDisabled= true;
+ 
+}
+```
+<h1 [innerText]="title"></h1>
+<button [disabled]="isDisabled">I am disabled</button>
+
+**3. Class Binding:**
+
+ClassName Property binding
+Set the Class attribute with class binding
+ngClass directive
+
+**4. Style Binding: Style Binding / ngStyle Directive**
+
+**5. Attribute Binding: **
+
+Sometimes there is no HTML element property to bind to. The examples are **aria (accessibility) Attributes & SVG**
+```
+<button [attr.aria-label]="closeLabel" (onclick)="closeMe()">X</button>
+```
+
+## From Components to View:
+
+1. Event Binding:
+
+```
+ <button (click)="onSave()">Save</button>
+```
+
+**Two way Binding:**  *banana in a box [()]*
+
+```
+import { FormsModule } from '@angular/forms';
+<input type="text" name="value" [(ngModel)]="value">
+```
+
+ngModel directive is not part of the Angular Core library. It is part of the @angular/forms.
+
+ngModel, behind the scene it sets up *property binding & event binding*. It binds to the *value property of the element using property binding*. It then uses the *ngModelChange event to sets up the event binding to listen to the changes to the value*.
+
+
+
+
+
+
 
 
 
