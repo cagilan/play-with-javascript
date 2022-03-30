@@ -1,0 +1,17 @@
+/**
+ * @param {boolean} xxx
+ */
+ 
+/**
+ * @param {{
+ *  contacts: ContactsItem[];
+ *  xxx: string;
+ *  msg: (x: string) => string;
+ * }} param0
+ */
+
+/**
+ * @param {() => TemplateResult} someMethod
+ */
+function xxx(someMethod) {
+
