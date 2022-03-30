@@ -15,3 +15,49 @@
  */
 function xxx(someMethod) {
 
+export interface TestAcc {
+  xx: string;
+  xx?: ContentImage;
+}
+
+[xxx, xxxx, xxx]
+    .filter(Boolean)
+    .join('.')
+    
+(Event?.composedPath()).find((node) => node.tagName === 'LI')
+
+try {
+    } catch (error) {
+      console.error(
+        '[xxx]: xxx',
+        error
+      );
+    } finally {
+      
+    }
+
+@-moz-document url-prefix() {
+        .xxx {
+          xx: xxxx;
+        }
+
+const [firstChar, ...restOfChars] = input;
+  return [firstChar.toLowerCase(), ...restOfChars].join('');
+  
+function merge(a, b) {
+  const xxx = [];
+  if (a) xxx.push(...a);
+  if (b) xxx.push(...b);
+  return xxxx;
+}
+
+Array.isArray
+Object.values
+
+test: test.reduce((acc, item) => {
+      acc[item.code] = item;
+      return acc;
+    }, {}),
+
+
+
